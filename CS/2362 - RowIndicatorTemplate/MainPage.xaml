@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="_2362___RowIndicatorTemplate.MainPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:local="clr-namespace:_2362___RowIndicatorTemplate"
+             >
+
+    <UserControl.DataContext>
+        <local:PersonsViewModel/>
+    </UserControl.DataContext>
+    
+    <Grid x:Name="LayoutRoot" Background="White">
+        <dxg:GridControl Name="grid" DataSource="{Binding Persons}" AutoPopulateColumns="True">
+            <dxg:GridControl.View>
+                <dxg:TableView IndicatorWidth="36" RowIndicatorContentTemplate="{StaticResource RowIndicatorThemeKey_IconPresenterTemplate}"/>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+    </Grid>
+</UserControl>
