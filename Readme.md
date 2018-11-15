@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [App.xaml](./CS/2362 - RowIndicatorTemplate/App.xaml)
+* [MainPage.xaml](./CS/2362 - RowIndicatorTemplate/MainPage.xaml) (VB: [MainPage.xaml](./VB/2362 - RowIndicatorTemplate/MainPage.xaml))
+* [Generic.xaml](./CS/2362 - RowIndicatorTemplate/Themes/Generic.xaml) (VB: [Generic.xaml](./VB/2362 - RowIndicatorTemplate/Themes/Generic.xaml))
+<!-- default file list end -->
 # How to provide any text for the RowIndicator
 
 
